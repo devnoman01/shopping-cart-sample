@@ -1,7 +1,8 @@
+let subTotal = 1278;
+
 function productCount(inputField, updateValue, price) {
     const productInput = document.getElementById(inputField);
     let productNumber = productInput.value;
-    let subTotal = 1278;
 
     function priceUpdate(productValue, updateValue){
         const productPriceInput = document.getElementById(price);
